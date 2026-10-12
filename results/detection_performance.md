@@ -1,0 +1,10 @@
+| stream           | algorithm                   |   sensitivity |   median_weeks_to_detect |   false_alarms_per_district_year |
+|:-----------------|:----------------------------|--------------:|-------------------------:|---------------------------------:|
+| community alerts | EARS C2                     |          0.93 |                      1.5 |                             1.77 |
+| community alerts | Historical limits           |          1    |                      1   |                             3.1  |
+| community alerts | CUSUM                       |          1    |                      1   |                             1.34 |
+| community alerts | Negative-binomial threshold |          0.93 |                      1   |                             0.63 |
+| facility cases   | EARS C2                     |          1    |                      3   |                             1.77 |
+| facility cases   | Historical limits           |          1    |                      2   |                             3.5  |
+| facility cases   | CUSUM                       |          1    |                      3   |                             1.65 |
+| facility cases   | Negative-binomial threshold |          1    |                      3   |                             0.66 |
